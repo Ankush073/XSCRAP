@@ -1,0 +1,4 @@
+# Ignore stir_env, env, and .env files
+stir_env/
+env/
+.env
