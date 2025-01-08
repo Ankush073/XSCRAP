@@ -23,7 +23,7 @@ This project consists of three main components:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd twitter-scraper
+cd xscrape
 ```
 
 2. Create and activate a virtual environment:
@@ -74,7 +74,7 @@ python app.py
 ## Configuration
 
 ### ProxyMesh Setup
-- Update `config.py` with your ProxyMesh credentials
+- Update `.env` with your ProxyMesh credentials
 - Configure proxy endpoints in the scraping script
 - Adjust request timeout settings if needed
 
