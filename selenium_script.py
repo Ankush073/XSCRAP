@@ -36,7 +36,7 @@ import os
 load_dotenv()
 
 # Initialize WebDriver with Chrome service
-WEBDRIVER = os.environ.get('CHROME_WEBDEIVER')  # Note: Typo in environment variable name
+WEBDRIVER = os.environ.get('CHROME_WEBDRIVER')  
 service = Service(WEBDRIVER)
 driver = webdriver.Chrome(service=service)
 
@@ -47,7 +47,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s - %(me
 MONGO_URI = os.environ.get('MONGODB_URL')
 USERNAME = os.environ.get('X_USERNAME')
 PASSWORD = os.environ.get('X_PASSWORD')
-EMAIL = os.environ.get('X_EMAIL')  # Note: EMAIL is defined but not used in the script
+EMAIL = os.environ.get('X_EMAIL')  
 PROXY = os.environ.get('PROXY')
 
 # Initialize MongoDB connection
