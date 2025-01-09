@@ -10,9 +10,6 @@ Requirements:
 - MongoDB
 - Python-dotenv
 - Chrome WebDriver
-
-Author: Unknown
-Last Modified: Unknown
 """
 
 from selenium import webdriver
